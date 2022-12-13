@@ -1,0 +1,92 @@
+.about{
+    background: #E5E5E5;
+    .container{
+        &__title{
+            margin: 0 auto;
+            width: 540px;
+            height: 95px;
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 48px;
+            text-align: center;
+            color: #22343D;
+        }
+        .list{
+            margin-top: 65px;
+            display: flex;
+            align-items: center;
+            &__item{
+                margin:0 auto;
+                &__title{
+                    font-family: 'Poppins';
+                    width: 165px;
+                    color: #22343D;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 33px;
+                    margin-top: 30px;
+                }
+                &__text{
+                    font-family: 'Poppins';
+                    width: 240px;
+                    margin-top: 15px;
+                    color: #22343D;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+        &__btn{
+            margin-left: 580px;
+            margin-top: 65px;
+            width: 175px;
+            height: 50px;
+            background: #02897A;
+            border-radius: 4px;
+            color: #fff;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .about{
+        .container{
+            &__title{
+                width: 330px;
+                font-size: 30px;
+            }
+            .list{
+                margin-top: 65px;
+                display: block;
+                align-items: center;
+                text-align: center;
+                &__item{
+                    margin:0 auto;
+                    &__title{
+                        margin-top: 25px !important;
+                        margin: auto;
+                        width: 165px;
+                    }
+                    &__text{
+                        margin: auto;
+                        width: 240px;
+                        margin-top: 15px;
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+            &__btn{
+                margin-left: 120px;
+                margin-top: 65px;
+                width: 175px;
+                height: 50px;
+                background: #02897A;
+                border-radius: 4px;
+                color: #fff;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}

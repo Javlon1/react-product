@@ -1,0 +1,47 @@
+.servise{
+    padding-top: 200px;
+    .container{
+        &__list{
+            &__item1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                &__left{
+                    &__title1{
+                        color: #22343D;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;  
+                        margin-bottom: 10px;
+                    }
+                    &__title2{
+                        color: #22343D;
+                        font-weight: 700;
+                        font-size: 32px;
+                        line-height: 48px;
+                        margin-bottom: 130px;
+                    }
+                    &__title3{
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #22343D;
+                        margin-bottom: 15px;
+                    }
+                    &__text{
+                        width: 480px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #22343D;
+                    }
+                }
+                .right{
+                    img{
+                        width: 540px;
+                    }
+                }
+            }
+        }
+    }  
+}
