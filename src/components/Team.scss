@@ -1,0 +1,99 @@
+.team{
+    margin-top: -16px;
+    padding-top: 55px;
+    background: #E5E5E5;
+    .container{
+        &__title{
+            text-align: center;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+            color: #22343D;
+        }
+        &__discriptions{
+            padding-top: 15px;
+            margin:0 auto;
+            text-align: center;
+            width: 540px;
+            height: 55px;
+            color: #22343D;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        &__list{
+            margin: auto;
+            width: 1100px;
+            display: flex;
+            justify-content: space-between;
+            &__item{
+                &__list{
+                    &__item{
+                        margin-top: 25px;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            color: #000 !important;
+                            margin: 0 15px;
+                            padding-top: 10px;
+                            text-align: center;
+                            background: #fff;
+                            width: 270px;
+                            height: 50px;
+                            border-radius: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+        &__btn{
+            margin-top: 50px;
+            margin-left: 550px;
+            font-size: 17px;
+            color: #fff;
+            width: 215px;
+            height: 50px;
+            background: #02897A;
+            border-radius: 4px;
+            margin-bottom: 150px;
+        }
+    }
+}
+
+
+@media (max-width: 425px) {
+    .team{
+        margin-top: 560px;
+        .container{
+            &__discriptions{
+                width: 330px;
+            }
+            &__list{
+                padding-left: 0;
+                width: 330px;
+                display: block;
+                &__item{
+                    padding-top: 40px;
+                    &__list{
+                        padding-left: 0;
+                        &__item{
+                            p{
+                                margin: 0 15px;
+                                padding: 4px 5px;
+                                text-align: center;
+                                background: #fff;
+                                width: 230px;
+                                height: 50px;
+                                border-radius: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            &__btn{
+                margin-left: 80px;
+            }
+        }
+    }
+    
+}

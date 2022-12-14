@@ -10,9 +10,9 @@ import Ser3 from "../assets/img/ser3.png"
 export default function Servise({darrk}) {
   return (
     <section className={darrk? ['servise', 'dark1'].join(" "): ['servise']}>
-        <div className="container">
-            <ul className='container__list'>
-                <li className='container__list__item1'>
+        <div className={darrk? ['container', 'dark1'].join(" "): ['container']}>
+            <ul className={darrk? ['container__list', 'dark1'].join(" "): ['container__list']}>
+                <li className={darrk? ['container__list__item1', 'dark1'].join(" "): ['container__list__item1']}>
                     <div className="container__list__item1__left">
                         <p className='container__list__item1__left__title1'>Effortless Validation for</p>
                         <h1 className='container__list__item1__left__title2'>Management</h1>
@@ -25,7 +25,7 @@ export default function Servise({darrk}) {
                         <img src={Servise1} alt="" />
                     </div>
                 </li>
-                <li className='container__list__item2'>
+                <li className={darrk? ['container__list__item2', 'dark1'].join(" "): ['container__list__item2']}>
                     <div className="container__list__item2__left">
                         <img src={Servise2} alt="" />
                     </div>
@@ -49,13 +49,13 @@ export default function Servise({darrk}) {
                         </ul>
                     </div>
                 </li>
-                <li className='container__list__item3'>
-                    <div className="container__list__item3__left">
+                <li className={darrk? ['container__list__item3', 'dark1'].join(" "): ['container__list__item3']}>
+                    <div className={darrk? ['container__list__item3__left', 'dark1'].join(" "): ['container__list__item3__left']}>
                         <p className='container__list__item3__left__title1'>Optimisation for</p>
                         <h1 className='container__list__item3__left__title2'>Collaborative</h1>
                         <p className='container__list__item3__left__text'>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
                         <h2 className='container__list__item3__left__title3'>Accessory makers</h2>
-                        <p className='container__list__item3__left__text1'>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                        <p className='container__list__item3__left__text'>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
                         <h2 className='container__list__item3__left__title3'>Alterationists</h2>
                         <p className='container__list__item3__left__text1'>If you are looking for a new way to promote your business that won’t cost you more money. </p>
                     </div>

@@ -2,7 +2,6 @@
     padding-top: 200px;
     .container{
         &__list{
-            margin-bottom: 150px;
             &__item1{
                 display: flex;
                 align-items: center;
@@ -125,6 +124,7 @@
                     &__text1{
                         color: #22343D;
                         margin-bottom: 25px;
+                        margin-bottom: 150px;
                     }
                 }
             }
@@ -135,12 +135,13 @@
 
 @media (max-width: 425px) {
     .servise{
-        padding-top: 400px;
+        padding-top: 0;
         .container{
             &__list{
                 margin-bottom: 0;
-                padding-left: 10px;
+                padding-left: 0px;
                 &__item1{
+                    padding-left: 10px;
                     display: block;
                     &__left{
                         width: 330px;
@@ -167,6 +168,7 @@
                     }
                 }
                 &__item2{
+                    padding-left: 10px;
                     margin-top: 385px;
                     display: block;
                     &__left{
@@ -202,7 +204,8 @@
                     display: block;
                     margin-top: 400px;
                     &__left{
-                        width: 345px;
+                        padding-left: 10px;
+                        width: 375px;
                         &__title1{
                             margin-bottom: 10px;
                         }
@@ -220,6 +223,7 @@
                         }
                     }
                     &__right{
+                        padding-left: 10px;
                         margin-top: -800px;
                         img{
                             width: 330px;

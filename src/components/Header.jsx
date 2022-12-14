@@ -6,6 +6,7 @@ import Lite from '../assets/img/lite.svg'
 import Intro from './Intro'
 import About from './About'
 import Servise from './Servise'
+import Team from './Team'
 
 export default function Header() {
     const [nav, setNav] = useState(false)
@@ -52,6 +53,7 @@ export default function Header() {
     <Intro darrk={dark}/>
     <About darrk={dark}/>
     <Servise darrk={dark}/>
+    <Team darrk={dark}/>
     </>
   )
 }
